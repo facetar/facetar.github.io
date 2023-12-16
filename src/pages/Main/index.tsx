@@ -6,7 +6,7 @@ function Main() {
   return (
     <>
       <Header />
-      <h2>Main1</h2>
+      <hr></hr>
       <Outlet />
     </>
   )
