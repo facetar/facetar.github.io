@@ -2,7 +2,7 @@ import './main.css'
 
 function Main() {
   return (
-    <h2>Main</h2>
+    <h2>Main1</h2>
   )
 }
 
