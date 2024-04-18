@@ -7,7 +7,9 @@ function Main() {
     <>
       <Header />
       <hr></hr>
+      <div className='outlet'>
       <Outlet />
+      </div>
     </>
   )
 }
