@@ -1,9 +1,10 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import './videoplayer.css';
 
 const VideoPlayer = ({ videoId }: any) => {
   const opts = {
-    height: '300',
+    height: '280',
     width: '540',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
@@ -17,7 +18,7 @@ const VideoPlayer = ({ videoId }: any) => {
   };
 
   return (
-    <YouTube videoId={videoId} opts={opts} onReady={onReady} />
+      <YouTube videoId={videoId} opts={opts} onReady={onReady} />
   );
 };
 

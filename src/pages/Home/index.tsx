@@ -1,6 +1,6 @@
 import './home.css'
 import VideoPlayer from '../../components/VideoPlayer';
-import StoreBanner from '../../Assets/esmeraldabanner2.png'
+import EmeraldBanner from '../../Assets/esmeraldaban.png'
 
 function Home() {
   const youtubeId = 'qcPTIbG7KPk';
@@ -18,12 +18,14 @@ function Home() {
           </p>
         </div>
         <div className='home-movie'>
-          <VideoPlayer videoId={youtubeId} />
-        </div>
+  <div className="video-container">
+    <VideoPlayer videoId={youtubeId} />
+  </div>
+  </div>
       </div>
       <div className='home-store'>
         <a href={storeUrl} target="_blank" rel="noopener noreferrer">
-          <img src={StoreBanner} alt="Esmeralda Natural/Conheça nossa loja virtual" />
+          <img src={EmeraldBanner} alt="Esmeralda Natural/Conheça nossa loja virtual" />
         </a>
       </div>
     </div>

@@ -85,3 +85,42 @@
   margin-right: 10px;
   margin-top: 0.9px;
 }
+
+.logo-area {
+  align-items: center;
+  display: flex;
+  height: 77px;
+  width: 900px;
+}
+
+@media (max-width: 768px) {
+  .header-bottom {
+    align-items: center;
+    border: solid 2px rgb(224, 0, 0);
+    flex-direction: column;
+    height: 175px;
+    width: 375px;
+  }
+
+  .logo-area {
+    align-items: center;
+    border: solid 2px green;
+    display: flex;
+    height: 77px;
+    width: 375px;
+  }
+
+  .header-links {
+    align-items: center;
+    border: solid 2px black;
+    display: flex;
+    height: 89px;
+    justify-content: center;
+    width: 373px;
+  }
+
+  .header-links button {
+    margin-right: 17px;
+  }
+
+}

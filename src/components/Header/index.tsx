@@ -29,11 +29,13 @@ const fbLink = 'https://facetar.github.io/'
         </div>
       </div>
       <div className='header-bottom'>
+        <div className='logo-area'>
         <div className='header-logo'>
           <img className='logo' src={facetarLogo} alt="" />
         </div>
         <div className='logo-title'>
           <span>Lapidação Facetar</span>
+        </div>
         </div>
         <div className='header-links'>
           <button onClick={() => navigate('/')}><span>Home</span></button>

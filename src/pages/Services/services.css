@@ -12,7 +12,7 @@
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
   display: flex;
-  height: 310px;
+  height: 300px;
   justify-content: center;
   width: 1050px;
 }
@@ -31,22 +31,24 @@
 }
 
 .services-content h2 {
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
 .services-movie {
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
   margin-right: 15px;
+  height: 280px;
   width: 540px;
 }
 
 .services-store img {
   border-radius: 10px;
   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.4);
-  height: 200px;
-  margin-top: 15px;
-  width: 1052px;
+  margin-top: 10px;
+  height: 170px;
+  width: 1050px;
 }
 
 .services-store img:hover {

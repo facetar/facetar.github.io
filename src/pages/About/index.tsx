@@ -1,5 +1,5 @@
 import './about.css'
-import Esmeralda from '../../Assets/esmeralda.png'
+import Emerald from '../../Assets/PNEM1012 (2)_edited.png'
 
 function About() {
   return (
@@ -12,12 +12,11 @@ function About() {
           breve texto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo,
           breve texto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo,
           breve texto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo,
-          breve texto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo,
           breve texto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo.
             </p>
         </div>
         <div className='about-imgs'>
-          <img src={Esmeralda} alt="Esmeralda natural lapidada" />
+          <img src={Emerald} alt="Esmeralda natural lapidada" />
         </div>
       </div>
     </div>

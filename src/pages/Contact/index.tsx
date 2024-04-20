@@ -60,16 +60,18 @@ function Contact() {
         <div className='about-content'>
           <div className='title'><h2>Contatos</h2></div>
           <div className='contacts'>
-            <p>Whatsapp : (11)99979-7305</p>
-            <p>Celular : (11)99979-7305</p>
-            <p>Telefone fixo : (11)3242-1871</p>
-            <p>Instagram: @lap_facetar</p>
-            <p>Facebook: facebook/lapidacaofacetar</p>
-            <p>Email: adm@facetar.com.br</p>
+              <div className='contacts-list'>
+                <p>Whatsapp : (11)99979-7305</p>
+                <p>Celular : (11)99979-7305</p>
+                <p>Telefone fixo : (11)3242-1871</p>
+                <p>Instagram: @lap_facetar</p>
+                <p>Facebook: facebook/lapidacaofacetar</p>
+                <p>Email: adm@facetar.com.br</p>
+              </div>
           </div>
         </div>
         <div className='about-map'>  
-          <p className='map-text'>{`Rua Senador Paulo Egidio, xxx -- Cep: 00000-000`}</p>
+          <p className='map-text'>Rua Senador Paulo Egidio, xxx -- Cep: 00000-000</p>
           <div ref={mapRef} id='map' style={{ width: '100%', height: '380px' }}></div>
       </div>
       </div>
