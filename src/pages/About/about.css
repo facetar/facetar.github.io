@@ -56,3 +56,36 @@
   height: 100%;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+
+  .about {
+    width: 348px;
+  }
+
+  .about-body {
+    height: auto;
+    flex-direction: column;
+    width: 348px;
+  }
+
+  .about-content {
+    height: auto;
+    margin: 0;
+    width: auto;
+  }
+
+  .about-content h2 {
+    margin-top: 10px;
+  }
+
+  .about-imgs {
+    height: 340px;
+    margin-bottom: 7px;
+    width: 340px;
+  }
+
+  .about-content p {
+    margin-top: 0px;
+  }
+}

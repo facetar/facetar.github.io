@@ -63,7 +63,6 @@
   }
 
   .services-body {
-    border: solid 2px black;
     height: auto;
     flex-direction: column;
     width: 348px;
@@ -79,7 +78,7 @@
     margin: 0;
     height: 191px;
     width: 340px;
-    margin-bottom: 3px;
+    margin-bottom: 7px;
   }
 
   .video-container {
@@ -111,5 +110,9 @@
   .services-content ul {
     font-size: 1.05em;
     margin-right: 9px;
+  }
+
+  .services-content h2 {
+    margin-top: 10px;
   }
 }
