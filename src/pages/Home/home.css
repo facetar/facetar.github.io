@@ -62,13 +62,14 @@
 @media (max-width: 768px) {
 
   .home {
-    width: 375px;
+    width: 365px;
   }
 
   .home-body {
+    border: solid 2px black;
     height: auto;
     flex-direction: column;
-    width: 370px;
+    width: 360px;
   }
 
   .home-content {
@@ -78,8 +79,8 @@
 
   .home-movie {
     margin: 0;
-    height: 196px;
-    width: 350px;
+    height: 193px;
+    width: 340px;
     margin-bottom: 5px;
   }
 
@@ -106,6 +107,6 @@
     box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.4);
     margin-top: 10px;
     height: 110px;
-    width: 370px;
+    width: 360px;
   }
 }
