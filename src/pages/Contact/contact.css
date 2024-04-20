@@ -1,0 +1,43 @@
+.about-content .title h2 {
+  margin: 0;
+}
+
+.about-content .title {
+  margin-bottom: 3px;
+}
+
+.about-content .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 377px;
+  margin-bottom: 4px;
+  margin-top: 5px;
+  width: 500px;
+}
+
+.about-content .contacts p {
+  font-weight: bold;
+  margin: 15px;
+}
+
+.about-map {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+  height: 480px;
+  width: 480px;
+}
+
+#map {
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.7);
+}
+
+.map-text {
+  font-size: 18.4px;
+  margin: 0;
+  margin-bottom: 9px;
+  padding: 0;
+}

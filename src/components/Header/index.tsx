@@ -8,14 +8,24 @@ import facetarLogo from '../../Assets/facetar_logo.png';
 
 function Header() {
   const navigate = useNavigate();
+const fbLink = 'https://facetar.github.io/'
+
   return (
     <div>
       <div className='top-header'>
         <div className='header-contacts'>
+        <a href={fbLink} target="_blank" rel="noopener noreferrer">
           <img className='fb_logo' src={faceLogo} alt="" />
+        </a>
+        <a href={fbLink} target="_blank" rel="noopener noreferrer">
           <img className='insta_logo' src={instaLogo} alt="" />
+        </a>
+        <a href={fbLink} target="_blank" rel="noopener noreferrer">
           <img className='email_logo' src={emailLogo} alt="" />
-          <img className='whats_logo' src={whatsLogo} alt="" />
+        </a>
+        <a href={fbLink} target="_blank" rel="noopener noreferrer">
+          <img className='whats_logo' src={whatsLogo} alt="" />\
+        </a>
         </div>
       </div>
       <div className='header-bottom'>
@@ -23,12 +33,13 @@ function Header() {
           <img className='logo' src={facetarLogo} alt="" />
         </div>
         <div className='logo-title'>
-          <span>Lapidacao Facetar</span>
+          <span>Lapidação Facetar</span>
         </div>
         <div className='header-links'>
           <button onClick={() => navigate('/')}><span>Home</span></button>
-          <button onClick={() => navigate('/sobre_nos')}><span>Sobre Nos</span></button>
-          <button onClick={() => navigate('/contato')}><span>Contato</span></button>
+          <button onClick={() => navigate('/serviços')}><span>Serviços</span></button>
+          <button onClick={() => navigate('/sobre_nos')}><span>Sobre nós</span></button>
+          <button onClick={() => navigate('/contatos')}><span>Contatos</span></button>
         </div>
       </div>
     </div>
