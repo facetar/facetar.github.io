@@ -78,8 +78,9 @@
   }
 
   .home-movie {
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
     margin: 0;
-    height: 193px;
+    height: 191px;
     width: 340px;
     margin-bottom: 3px;
   }
