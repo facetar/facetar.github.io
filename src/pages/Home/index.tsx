@@ -18,10 +18,10 @@ function Home() {
           </p>
         </div>
         <div className='home-movie'>
-  <div className="video-container">
-    <VideoPlayer videoId={youtubeId} />
-  </div>
-  </div>
+          <div className="video-container">
+           <VideoPlayer videoId={youtubeId} />
+          </div>
+        </div>
       </div>
       <div className='home-store'>
         <a href={storeUrl} target="_blank" rel="noopener noreferrer">

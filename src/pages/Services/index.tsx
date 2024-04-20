@@ -21,7 +21,9 @@ function Services() {
         </ul>
         </div>
         <div className='services-movie'>
-          <VideoPlayer videoId={youtubeId} />
+          <div className="video-container">
+            <VideoPlayer videoId={youtubeId} />
+          </div>
         </div>
       </div>
       <div className='services-store'>
