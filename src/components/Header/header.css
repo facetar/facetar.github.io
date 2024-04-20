@@ -96,25 +96,26 @@
 @media (max-width: 768px) {
   .header-bottom {
     align-items: center;
-    border: solid 2px rgb(224, 0, 0);
     flex-direction: column;
-    height: 175px;
+    height: 130px;
     width: 375px;
   }
 
   .logo-area {
     align-items: center;
-    border: solid 2px green;
+    margin-top: 3px;
     display: flex;
     height: 77px;
     width: 375px;
   }
 
+  .logo-area img {
+    margin-left: 27.5px;
+  }
+
   .header-links {
     align-items: center;
-    border: solid 2px black;
     display: flex;
-    height: 89px;
     justify-content: center;
     width: 373px;
   }
@@ -122,5 +123,4 @@
   .header-links button {
     margin-right: 17px;
   }
-
 }

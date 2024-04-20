@@ -68,7 +68,7 @@
   .home-body {
     height: auto;
     flex-direction: column;
-    width: 375px;
+    width: 370px;
   }
 
   .home-content {
@@ -78,8 +78,9 @@
 
   .home-movie {
     margin: 0;
-    height: 215px;
-    width: 375px;
+    height: 196px;
+    width: 350px;
+    margin-bottom: 5px;
   }
 
   .video-container {
