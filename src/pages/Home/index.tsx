@@ -11,9 +11,9 @@ function Home() {
       <div className='home-body'>
         <div className='home-content'>
           <h2>Lapidação Facetar</h2>
-          <p>Breve texto descritivo, breve texto descritivo, breve texto descritivo
-          breve texto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo,
-          breve texto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo,
+          <p>Braaeve tadsdextxto descritivo, breve texto descritivo
+          breve s dsadescrdssaddasdasdsaditivo, breve texto descritivo, breve texto descritivo, breve texto descritivo,
+          breve tsdexto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo,
           breve texto descritivo, breve texto descritivo, breve texto descritivo, breve texto descritivo.
           </p>
         </div>
