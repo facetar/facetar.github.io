@@ -1,9 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import './home.css';
 import VideoPlayer from '../../components/VideoPlayer';
 import EmeraldBanner from '../../Assets/esmeraldaban.png';
 
 function Home() {
+  const navigate = useNavigate();
   const youtubeId = 'qcPTIbG7KPk';
   const storeUrl = 'https://lapidacaofacetar.mercadoshops.com.br/lista/joias-relogios/';
   const [showContent, setShowContent] = useState(false);
@@ -23,12 +25,15 @@ function Home() {
       <div className='home-body'>
         <div className='home-content'>
           <h2>Lapidação Facetar</h2>
+          <div className='home-text'>
           <p>Breve texto descritivo, breve texto descritivo
           breve texto descritivo, breve texto descritivo, breve texto descritivo,
           breve texto descritivo, breve texto descritivo, breve texto descritivo,
           breve texto descritivo, breve texto descritivo, breve texto descritivo,
           breve texto descritivo, breve texto descritivo.
           </p>
+          </div>
+          <button onClick={() => navigate('/serviços')}><span>Nossos serviços</span></button>
         </div>
         <div className='home-movie'>
           <div className={`video-container ${showContent ? 'visible' : ''}`}>
