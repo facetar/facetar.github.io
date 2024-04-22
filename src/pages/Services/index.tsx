@@ -5,7 +5,7 @@ import AmetistBanner from '../../Assets/ametistaban.png'
 
 function Services() {
   const youtubeId = 'soE2oGk9pMo';
-  const storeUrl = 'https://facetar.github.io/'
+  const storeUrl = 'https://lapidacaofacetar.mercadoshops.com.br/lista/joias-relogios/'
 
   return (
     <div className='services'>

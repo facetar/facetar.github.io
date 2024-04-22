@@ -8,7 +8,11 @@ import facetarLogo from '../../Assets/facetar_logo.png';
 
 function Header() {
   const navigate = useNavigate();
-const fbLink = 'https://facetar.github.io/'
+const fbLink = 'https://www.facebook.com/facetar'
+const instaLink = 'https://www.instagram.com/lapidacao_facetar'
+const emailLink = 'mailto:adm@facetar.com.br';
+const whatsappNumber = '5511998653311';
+const whatsappLink = `whatsapp://send?phone=${whatsappNumber}`;
 
   return (
     <div>
@@ -17,13 +21,13 @@ const fbLink = 'https://facetar.github.io/'
         <a href={fbLink} target="_blank" rel="noopener noreferrer">
           <img className='fb_logo' src={faceLogo} alt="" />
         </a>
-        <a href={fbLink} target="_blank" rel="noopener noreferrer">
+        <a href={instaLink} target="_blank" rel="noopener noreferrer">
           <img className='insta_logo' src={instaLogo} alt="" />
         </a>
-        <a href={fbLink} target="_blank" rel="noopener noreferrer">
+        <a href={emailLink} target="_blank" rel="noopener noreferrer">
           <img className='email_logo' src={emailLogo} alt="" />
         </a>
-        <a href={fbLink} target="_blank" rel="noopener noreferrer">
+        <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
           <img className='whats_logo' src={whatsLogo} alt="" />\
         </a>
         </div>

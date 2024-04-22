@@ -5,8 +5,7 @@ import EmeraldBanner from '../../Assets/esmeraldaban.png';
 
 function Home() {
   const youtubeId = 'qcPTIbG7KPk';
-  const storeUrl = 'https://facetar.github.io/';
-  
+  const storeUrl = 'https://lapidacaofacetar.mercadoshops.com.br/lista/joias-relogios/';
   const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
