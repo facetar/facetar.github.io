@@ -6,6 +6,16 @@
   width: auto;
 }
 
+.top-header a {
+  text-decoration: none;
+  color: transparent;
+}
+
+.top-header a:hover {
+  text-decoration: none;
+  color: transparent;
+}
+
 .header-contacts {
   align-items: center;
   display: flex;
