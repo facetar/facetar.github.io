@@ -7,6 +7,7 @@ function Services() {
   const youtubeId = 'soE2oGk9pMo';
   const storeUrl = 'https://lapidacaofacetar.mercadoshops.com.br/lista/joias-relogios/'
 
+  
   return (
     <div className='services'>
       <div className='services-body'>
