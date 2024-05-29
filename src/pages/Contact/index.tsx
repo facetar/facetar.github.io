@@ -57,7 +57,7 @@ function Contact() {
   return (
     <div className='about'>
       <div className='about-body'>
-        <div className='about-content'>
+        <div className='contact-content'>
           <div className='title'><h2>Contatos</h2></div>
           <div className='contacts'>
               <div className='contacts-list'>
@@ -70,7 +70,7 @@ function Contact() {
               </div>
           </div>
         </div>
-        <div className='about-map'>  
+        <div className='contact-map'>  
           <p className='map-text'>Rua Senador Paulo Egidio, 15 -- Cep: 01006-903</p>
           <div ref={mapRef} id='map' style={{ width: '100%', height: '380px' }}></div>
       </div>

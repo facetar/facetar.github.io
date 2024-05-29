@@ -19,8 +19,19 @@ function Services() {
           <li><p>Desevolvimento de produtos(criação de modelos em pedras).</p></li>
           <li><p>Atendimento perzonalizado à designers(e público em geral).</p></li>
         </ul>
+        <span>Serviços com colaboradores:</span>
+        <ul>
+          <li><p>Recuperação de jóias.</p></li>
+          <li><p>Análise de pedras.</p></li>
+          <li><p>Gravação a laser em alto e baixo relevo.</p></li>
+        </ul>
         </div>
         <div className='services-movie'>
+        <h2>Acessoria</h2>
+        <ul>
+          <li><p>Acessoria para compra de pedras.</p></li>
+          <li><p>Acessoria para partilha de jóias familiares.</p></li>
+        </ul>
           <div className="video-container">
             <VideoPlayer videoId={youtubeId} />
           </div>
