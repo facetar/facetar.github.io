@@ -27,12 +27,11 @@ function Home() {
         <div className='home-content'>
           <h2>Lapidação Facetar</h2>
           <div className='home-text'>
-          <p>Especialistas em transformar pedras brutas em jóias deslumbrantes. 
-            Nosso diferencial é o conhecimento profundo de todo o processo, desde 
-            a extração e lapidação das pedras até a criação e execução da peça final. 
-            Isso nos permite oferecer um serviço completo e personalizado aos nossos 
-            clientes. Garantimos que cada projeto seja concluído com excelência, buscando
-            o melhor custo-benefício, aliando qualidade e eficiência.
+          <p>Especialistas em transformar pedras brutas em jóias deslumbrantes, temos 
+            profundo conhecimento de todo processo, desde a extração e lapidação até a 
+            criação e execução da peça final. Nos permitindo um serviço completo e 
+            personalizado, garantindo excelência, qualidade, eficiência e o melhor 
+            custo-benefício em cada projeto..
           </p>
           </div>
           <button onClick={() => navigate('/serviços')}><span>Nossos serviços</span></button>
