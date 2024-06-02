@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './home.css';
 import VideoPlayer from '../../components/VideoPlayer';
 import EmeraldBanner from '../../Assets/esmeraldaban.png';
+import Services from '../Services';
 
 function Home() {
   const navigate = useNavigate();
@@ -28,11 +29,10 @@ function Home() {
           <div className='home-text'>
           <p>Especialistas em transformar pedras brutas em jóias deslumbrantes. 
             Nosso diferencial é o conhecimento profundo de todo o processo, desde 
-            a extração das pedras até a criação da peça final. Isso nos permite oferecer 
-            um serviço completo e personalizado aos nossos clientes.
-            Apoiando em todas as etapas da criação de joias e lapidação de 
-            pedras. Garantindo que cada projeto seja concluído com excelência, com o 
-            compromisso de sempre buscar o melhor custo-benefício, aliando qualidade e eficiência.
+            a extração e lapidação das pedras até a criação e execução da peça final. 
+            Isso nos permite oferecer um serviço completo e personalizado aos nossos 
+            clientes. Garantimos que cada projeto seja concluído com excelência, buscando
+            o melhor custo-benefício, aliando qualidade e eficiência.
           </p>
           </div>
           <button onClick={() => navigate('/serviços')}><span>Nossos serviços</span></button>
@@ -48,6 +48,7 @@ function Home() {
           <img src={EmeraldBanner} alt="Esmeralda Natural/Conheça nossa loja virtual" />
         </a>
       </div>
+      <Services />
     </div>
   );
 }
