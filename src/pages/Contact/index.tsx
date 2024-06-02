@@ -67,6 +67,8 @@ function Contact() {
                 <p>Instagram: @lap_facetar</p>
                 <p>Facebook: facebook.com/facetar</p>
                 <p>Email: adm@facetar.com.br</p>
+                <p>
+Especialistas em transformar pedras brutas em jóias deslumbrantes, oferecemos um serviço completo e personalizado. Com profundo conhecimento da extração e lapidação das pedras à criação final, garantimos excelência em cada projeto, aliando qualidade, eficiência e o melhor custo-benefício.</p>
               </div>
           </div>
         </div>
