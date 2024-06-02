@@ -29,9 +29,9 @@ function Home() {
           <div className='home-text'>
           <p>Especialistas em transformar pedras brutas em jóias deslumbrantes, temos 
             profundo conhecimento de todo processo, desde a extração e lapidação até a 
-            criação e execução da peça final. Nos permitindo um serviço completo e 
-            personalizado, garantindo excelência, qualidade, eficiência e o melhor 
-            custo-benefício em cada projeto..
+            criação e execução da peça final. Oferecemos um serviço completo e 
+            personalizado, garantimos excelência, qualidade, eficiência e o melhor 
+            custo-benefício em cada projeto.
           </p>
           </div>
           <button onClick={() => navigate('/serviços')}><span>Nossos serviços</span></button>
