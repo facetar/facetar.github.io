@@ -2,6 +2,8 @@ import { useNavigate } from 'react-router-dom';
 import './home.css';
 import Services from '../Services';
 import VideoPlayer from '../../components/VideoPlayer';
+import About from '../About';
+import Contact from '../Contact';
 
 
 function Home() {
@@ -9,7 +11,7 @@ function Home() {
   const youtubeId = 'qcPTIbG7KPk';
 
   return (
-    <div className='home'>
+    <div className='home' id='home'>
       <div className='home-body'>
         <div className='home-content'>
           <h2>Lapidação Facetar</h2>
@@ -21,7 +23,9 @@ function Home() {
             custo-benefício em cada projeto.
           </p>
           </div>
-          <button onClick={() => navigate('/contatos')}><span>Entre em contato</span></button>
+              <button onClick={() => navigate('/contatos')}>
+                <span>Entre em contato</span>
+              </button>
         </div>
         <div className='home-movie'>
         <div className='video-container'>
@@ -29,7 +33,15 @@ function Home() {
           </div>
         </div>
       </div>
-      <Services />
+      <div id="services">
+        <Services />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }

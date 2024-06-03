@@ -35,7 +35,7 @@ function Services() {
           <li><p>Acessoria para partilha de jóias familiares.</p></li>
         </ul>
           <div className="video-container">
-<img src={Ametists} alt="" />
+
           </div>
         </div>
       </div>

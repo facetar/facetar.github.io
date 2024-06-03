@@ -7,6 +7,9 @@ hr {
   background-color: #e4e4e4;
 }
 
+.outlet {
+  padding-top: 131px
+}
 
 @media (max-width: 768px) {
   .outlet {
