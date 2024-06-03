@@ -6,6 +6,13 @@
   width: auto;
 }
 
+.header {
+  background-color: white;
+  height: 128px;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+
 .top-header a {
   text-decoration: none;
   color: transparent;
@@ -26,6 +33,7 @@
 
 .header-bottom {
   align-items: center;
+  background-color: white;
   display: flex;
   height: 77px;
   margin: 5px auto 5px auto;

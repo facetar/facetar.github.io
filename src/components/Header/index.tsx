@@ -15,7 +15,7 @@ const whatsappNumber = '5511998653311';
 const whatsappLink = `whatsapp://send?phone=${whatsappNumber}`;
 
   return (
-    <div>
+    <div className='header'>
       <div className='top-header'>
         <div className='header-contacts'>
         <a href={fbLink} target="_blank" rel="noopener noreferrer">
@@ -48,6 +48,7 @@ const whatsappLink = `whatsapp://send?phone=${whatsappNumber}`;
           <button onClick={() => navigate('/contatos')}><span>Contatos</span></button>
         </div>
       </div>
+      <hr></hr>
     </div>
   )
 }

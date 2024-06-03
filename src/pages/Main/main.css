@@ -3,9 +3,10 @@ hr {
   margin: 0;
 }
 
-.outlet {
-  margin-top: 10px;
+.main {
+  background-color: #e4e4e4;
 }
+
 
 @media (max-width: 768px) {
   .outlet {

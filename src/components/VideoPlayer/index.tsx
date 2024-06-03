@@ -4,7 +4,7 @@ import './videoplayer.css';
 
 const VideoPlayer = ({ videoId }: any) => {
   const opts = {
-    height: '275',
+    height: '270',
     width: '489',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters

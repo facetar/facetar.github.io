@@ -5,14 +5,13 @@ import './main.css'
 
 function Main() {
   return (
-    <>
+    <div className='main'>
       <Header />
-      <hr></hr>
       <div className='outlet'>
       <Outlet />
       <Footer />
       </div>
-    </>
+    </div>
   )
 }
 

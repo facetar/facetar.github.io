@@ -1,6 +1,7 @@
 import './services.css'
 import VideoPlayer from '../../components/VideoPlayer';
-import AmetistBanner from '../../Assets/ametistaban.png'
+import EmeraldBanner from '../../Assets/esmeraldaban.png';
+import Ametists from '../../Assets/ametistas.png'
 
 
 function Services() {
@@ -20,7 +21,7 @@ function Services() {
           <li><p>Desevolvimento de produtos(criação de modelos em pedras).</p></li>
           <li><p>Atendimento perzonalizado à designers(e público em geral).</p></li>
         </ul>
-        <span>Serviços com colaboradores:</span>
+        <span>Serviços com colaboradores</span>
         <ul>
           <li><p>Recuperação de jóias.</p></li>
           <li><p>Análise de pedras.</p></li>
@@ -28,19 +29,19 @@ function Services() {
         </ul>
         </div>
         <div className='services-movie'>
-        <h2>Acessoria</h2>
+        <h2>Acessorias</h2>
         <ul>
           <li><p>Acessoria para compra de pedras.</p></li>
           <li><p>Acessoria para partilha de jóias familiares.</p></li>
         </ul>
           <div className="video-container">
-            <VideoPlayer videoId={youtubeId} />
+<img src={Ametists} alt="" />
           </div>
         </div>
       </div>
       <div className='services-store'>
         <a href={storeUrl} target="_blank" rel="noopener noreferrer">
-          <img src={AmetistBanner} alt="Esmeralda Natural/Conheça nossa loja virtual" />
+          <img src={EmeraldBanner} alt="Esmeralda Natural/Conheça nossa loja virtual" />
         </a>
       </div>
     </div>
