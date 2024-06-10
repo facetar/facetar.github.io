@@ -6,7 +6,7 @@ function About() {
       <div className='about-body'>
         <div className='about-content'>
           <h2>Sobre nós</h2>
-          <p>A Facetar é uma empresa com uma rica história desde 1965, quando nossa família iniciou suas atividades no segmento de mineração e lapidação de pedras preciosas. Com décadas de experiência, tornamo-nos referência no setor, conhecendo profundamente cada etapa do processo, desde a extração das pedras nas minas até a sua lapidação e transformação em gemas de alta qualidade.
+          <p>A Lapidação Facetar é oriunda de uma empresa familiar com uma rica história desde 1965, quando iniciou suas atividades no segmento de mineração e lapidação de pedras preciosas. Com décadas de experiência, tornamo-nos reconhecidos no setor, conhecendo profundamente cada etapa do processo, desde a extração das pedras nas minas até a sua lapidação e transformação em gemas de alta qualidade.
 
 Nosso compromisso com a qualidade e excelência se reflete em cada pedra preciosa que trabalhamos. Com um conhecimento abrangente do mercado nacional e internacional, estamos preparados para atender às mais diversas necessidades e expectativas dos nossos clientes, seja em projetos simples ou complexos.
 

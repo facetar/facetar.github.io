@@ -55,25 +55,34 @@ function Contact() {
 
 
   return (
-    <div className='about'>
-      <div className='about-body'>
+    <div className='contact'>
+      <div className='contact-body'>
         <div className='contact-content'>
-          <div className='title'><h2>Contatos</h2></div>
+          <h2>Contatos</h2>
           <div className='contacts'>
               <div className='contacts-list'>
-                <p>Whatsapp : (11)99979-7305</p>
-                <p>Celular : (11)99979-7305</p>
-                <p>Telefone fixo : (11)3242-1871</p>
-                <p>Instagram: @lap_facetar</p>
-                <p>Facebook: facebook.com/facetar</p>
-                <p>Email: adm@facetar.com.br</p>
-                <p>
-Especialistas em transformar pedras brutas em jóias deslumbrantes, oferecemos um serviço completo e personalizado. Com profundo conhecimento da extração e lapidação das pedras à criação final, garantimos excelência em cada projeto, aliando qualidade, eficiência e o melhor custo-benefício.</p>
+                <div className='div-contact'>
+                  <p>Celular/Whatsapp : (11)99979-7305</p>
+                  <span>Tratar com George</span> 
+                  </div>
+                <div className='div-contact'>
+                  <p>Telefone fixo : (11)3101-9435 / (11)3242-1871</p>
+                  <span>Tratar com Ronaldo, Sergio ou George</span>
+                </div>
+                <div className='div-contact2'> 
+  <p>Instagram: <a href="https://www.instagram.com/lap_facetar" target="_blank" rel="noreferrer">@lap_facetar</a></p>
+</div>
+<div className='div-contact2'> 
+  <p>Facebook: <a href="https://www.facebook.com/facetar" target="_blank" rel="noreferrer">facebook.com/facetar</a></p>
+</div>
+<div className='div-contact2'> 
+  <p>Email: <a href="mailto:adm@facetar.com.br" target="_blank" rel="noreferrer">adm@facetar.com.br</a></p>
+</div>
               </div>
           </div>
         </div>
         <div className='contact-map'>  
-          <p className='map-text'>Rua Senador Paulo Egidio, 15 -- Cep: 01006-903</p>
+          <p className='map-text'>Rua Senador Paulo Egidio, 15 sala: 901 - Cep: 01006-903 </p>
           <div ref={mapRef} id='map' style={{ width: '100%', height: '380px' }}></div>
       </div>
       </div>

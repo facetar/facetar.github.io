@@ -15,11 +15,11 @@ function Services() {
         <div className='services-content'>
           <h2>Serviços</h2>
         <ul>
-          <li><p>Lapidação de pedras naturais, sintétcias e resina.</p></li>
+          <li><p>Lapidação de pedras naturais, sintéticas e resina.</p></li>
           <li><p>Recuperação de pedras danificadas.</p></li>
-          <li><p>Serviço de furos em presas.</p></li>
+          <li><p>Serviço de furos em pedras.</p></li>
           <li><p>Desevolvimento de produtos(criação de modelos em pedras).</p></li>
-          <li><p>Atendimento perzonalizado à designers(e público em geral).</p></li>
+          <li><p>Atendimento personalizado à designers(e público em geral).</p></li>
         </ul>
         <span>Serviços com colaboradores</span>
         <ul>
